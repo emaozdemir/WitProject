@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetStore">
+    <test verbose="2" preserve-order="true" name="PetStore">
+        <classes>
+            <class name="petstore.C03_CreatePetPojo"></class>
+            <class name="petstore.C04_GetPetById"></class>
+            <class name="petstore.C05_UpdatePet"></class>
+            <class name="petstore.C06_DeletePet"></class>
+            <class name="petstore.C07_GetPetByIdNegative"></class>
+        </classes>
+    </test>
+
+</suite>
